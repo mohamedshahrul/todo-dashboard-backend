@@ -26,7 +26,7 @@ app.use("/user", userRoutes);
 
 //To test backend working or not
 app.get("/", (req, res) => {
-  res.send("Backend is Running");
+  res.send(" Backend is Running ");
 });
 
 const PORT = process.env.PORT || 5000;
